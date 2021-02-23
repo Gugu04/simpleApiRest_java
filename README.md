@@ -5,8 +5,8 @@
 
 Deberás de tener instalado spring boot y PostgreSQL una vez hayas clonado el proyecto deberás de seguir los siguientes pasos:
 
-- Crear una base de datos y ejecutar el script  [application.properties](https://github.com/Gugu04/simpleApiRest_java/blob/master/apirest_jdbc/src/main/resources/application.properties).
-- Configurar el archivo  [script_db.sql](https://github.com/Gugu04/simpleApiRest_java/blob/master/script_db.sql) con los datos de su conexión hacia el motor de la base de datos PostgreSQL.
+- Crear una base de datos y ejecutar el script [script_db.sql](https://github.com/Gugu04/simpleApiRest_java/blob/master/script_db.sql)
+- Configurar el archivo  [application.properties](https://github.com/Gugu04/simpleApiRest_java/blob/master/apirest_jdbc/src/main/resources/application.properties).   con los datos de su conexión hacia el motor de la base de datos PostgreSQL.
 - Hacer un `maven clean` y un `maven install` esto se puede hacer de diferentes maneras dependerá del IDE que estés utilizando.
 - Como último punto solo deberá de ejecutar el proyecto.
 -------------
